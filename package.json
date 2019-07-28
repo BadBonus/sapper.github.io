@@ -1,0 +1,18 @@
+{
+  "name": "sapper_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
