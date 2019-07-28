@@ -348,7 +348,8 @@ function changeCountMines(number)
 function endGame(bool)
 {
     clearInterval(timer);
-    pauseButton.hidden=false;
+    pauseButton.hidden=true;
+    console.log(pauseButton);
     return bool?gameOverContainerWin.visible=true:gameOverContainerLoose.visible=true;
 }
 
@@ -401,7 +402,6 @@ function pause()
     {
         clearInterval(timer);
         pauseContainer.visible=true;
-        console.log(pauseContainer.visible);
     }
     else
     {
